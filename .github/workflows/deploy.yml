@@ -15,4 +15,4 @@ jobs:
 
     - name: Build Step
       run: |
-        echo "Building the application..."
+        echo "Building the Obelion application..."
