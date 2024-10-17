@@ -16,3 +16,17 @@ jobs:
     - name: Build Step
       run: |
         echo "Building the Obelion application..."
+    - name: Deploy to EC2
+      # env:
+      #   PRIVATE_KEY: ${{ secrets.EC2_PRIVATE_KEY }}
+      #   USER: ${{ secrets.EC2_USER }}
+      #   HOST: ${{ secrets.EC2_HOST }}
+      run: |
+        # echo "Deploying to EC2 instance..."
+        # echo "$PRIVATE_KEY" > private_key.pem
+        # chmod 600 private_key.pem
+        # ssh -o StrictHostKeyChecking=no -i private_key.pem $USER@$HOST << 'EOF'
+        #   # Commands to execute on the EC2 instance
+        #   cd /path/to/your/application
+        #   # Add deployment commands, e.g., pulling the latest code, restarting services
+          echo "Deployment complete!"
