@@ -17,6 +17,7 @@ jobs:
       run: |
         echo "Building the Obelion application..."
     - name: Deploy to EC2
+      # On repo settings > Secrets & Variables > Actions > New Repository Secrets then add the below secrets
       # env:
       #   PRIVATE_KEY: ${{ secrets.EC2_PRIVATE_KEY }}
       #   USER: ${{ secrets.EC2_USER }}
