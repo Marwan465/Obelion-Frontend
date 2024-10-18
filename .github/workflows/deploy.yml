@@ -31,4 +31,5 @@ jobs:
         #   # Commands to execute on the EC2 instance
         #   cd /path/to/your/application
         #   # Add deployment commands, e.g., pulling the latest code, restarting services
+         #  EOF
           echo "Deployment complete!"
