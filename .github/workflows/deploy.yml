@@ -16,6 +16,7 @@ jobs:
     - name: Build Step
       run: |
         echo "Building the Obelion application..."
+  # Comments are added only for testing please remove the commands comments before use
     - name: Deploy to EC2
       # On repo settings > Secrets & Variables > Actions > New Repository Secrets then add the below secrets
       # env:
